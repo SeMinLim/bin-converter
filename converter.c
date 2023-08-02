@@ -56,7 +56,7 @@ int main(int argc, char **argv) {
 	printf( "Read Binary File Start!\n" );
 	readbin(&test[0], argv[2], numData*dimension);
 	printf( "Read Binary File Done!\n" );
-	printf( "%f, %f\n", test[0], test[1] );
+	printf( "%f, %f\n", test[89380], test[89381] );
 
 	return 0;
 }
